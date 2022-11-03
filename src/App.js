@@ -8,27 +8,15 @@ function App() {
   const handleClickOn1 = () => {
     setIsOn1(!isOn1);
   };
-  const [isOff1, setIsOff1] = useState(false);
-  const handleClickOff1 = () => {
-    setIsOff1(!isOff1);
-  };
 
   const [isOn2, setIsOn2] = useState(false);
   const handleClickOn2 = () => {
     setIsOn2(!isOn2);
   };
-  const [isOff2, setIsOff2] = useState(false);
-  const handleClickOff2 = () => {
-    setIsOff2(!isOff2);
-  };
 
   const [isOn3, setIsOn3] = useState(false);
   const handleClickOn3 = () => {
     setIsOn3(!isOn3);
-  };
-  const [isOff3, setIsOff3] = useState(false);
-  const handleClickOff3 = () => {
-    setIsOff3(!isOff3);
   };
 
   return (
